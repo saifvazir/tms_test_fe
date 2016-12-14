@@ -1,0 +1,42 @@
+Hello applicant,
+
+this is a task that is given to test your knowledge on the technologies that
+we are going to use.
+
+techlogies:
+html
+css
+bootstrap
+angularjs
+
+Task:
+you have to make a page called index.html which will look something like the
+image that is in templates folder i.e first_page.png
+
+the data will be fetched from a backend api(using get request in angular js) the url for fetch is
+url: ip/api/v1.0/get_books_data
+you can have a look at the data format by navigating to the url through the browser.
+
+you will have to display the cover page also...the data that you will fetch
+will contain the url of the image. you will have to fetch from that url and
+will have to display it.
+
+hint: hint is given in hints.txt.zip
+the password of zip file is bruteforce
+
+next part is, when a user clicks on the cover page a modal should pop up
+which should look like templates/modal.png
+
+the data in the modal:
+when the user clicks a coverpage post(Angular) its id to the given url
+the format of the post should be {"payload":{"id":2}}
+
+url: ip/api/v1.0/get_book_summary
+
+the url will return data like
+
+{"payload": {"id": 2, "summary": "Lorem ipsum dolor sit amet, has insolens vituperata ad, ut alii tota mundi eum, eu duo movet disputationi. Legimus deleniti cu mel. Usu tale solum omittantur te. At brute dicat sed, vocibus conclusionemque id his. Case tollit ut ius.\n\nNec harum saperet consequuntur ne, his aliquam signiferumque ad, eu per aliquip lucilius. Rebum movet te sea, te dicit nullam dictas eos. Ei sed vide mazim lobortis. Ut pericula instructior consectetuer qui, decore evertitur sed an. Everti sententiae cu vim, at torquatos percipitur est, no quo erant accumsan quaestio. Docendi iudicabit an per, prompta ornatus molestie in qui. Mei et aeterno feugait."}}
+
+NOTE: ALL DATA TRANSACTION WILL BE IN JSON FORMAT
+
+please feel free to ask if any doubt 
