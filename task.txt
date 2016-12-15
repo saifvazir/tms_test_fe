@@ -14,7 +14,7 @@ you have to make a page called index.html which will look something like the
 image that is in templates folder i.e first_page.png
 
 the data will be fetched from a backend api(using get request in angular js) the url for fetch is
-url: ip/api/v1.0/get_books_data
+url:http://ankitesh.pythonanywhere.com/api/v1.0/get_books_data
 you can have a look at the data format by navigating to the url through the browser.
 
 you will have to display the cover page also...the data that you will fetch
@@ -31,7 +31,7 @@ the data in the modal:
 when the user clicks a coverpage post(Angular) its id to the given url
 the format of the post should be {"payload":{"id":2}}
 
-url: ip/api/v1.0/get_book_summary
+url: http://ankitesh.pythonanywhere.com/api/v1.0/get_book_summary
 
 the url will return data like
 
